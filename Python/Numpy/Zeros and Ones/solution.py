@@ -3,7 +3,10 @@
 
 import numpy as np
 
-n = tuple(map(int, input().split()))
+n = list(map(int, input().split()))
 
-print(np.zeros(n,dtype=np.int))
-print(np.ones(n,dtype=np.int))
+# Print array of zeros
+print(np.zeros(n, dtype=np.int))
+
+# Print array of ones
+print(np.ones(n, dtype=np.int))
